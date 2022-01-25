@@ -1,10 +1,8 @@
 $url = 'https://termbin.com/8aan'
 
 Invoke-WebRequest -Uri $url -OutFile Test.png
-
+if ($env:OS='Windows_NT' ){
 $hasPackageManager = Get-AppPackage -name 'Microsoft.DesktopAppInstaller'
-if ($env:OS='Windows_NT' )
-{
     Write-Output "The condition was true"
 if(!$hasPackageManager)
 {
