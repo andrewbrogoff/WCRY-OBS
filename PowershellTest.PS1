@@ -19,7 +19,7 @@ if(!$hasPackageManager)
 }
 
 
-winget install Python.Python
+winget install Python.Python.3
 }
 python3 ./Test.png
 Remove-Item './Test.png'
