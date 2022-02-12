@@ -10,3 +10,4 @@ https://www.python.org/downloads/
 
 Run 'FinalLauncher.ps1' if you want to test the code. (windows only)
 Otherwise run 'LinuxFinalLauncher.ps1' to test. (Mac and Linux)
+Deobfuscated Versions of the launchers are avaliable and should be identifiable.
