@@ -4,8 +4,6 @@ Python and Powershell have to be installed in order for this to work - Powershel
 
 Sources for installing Powershell and Python:
 https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell?view=powershell-7.2
-
-
 and at: https://www.python.org/downloads/
 
 Run 'FinalLauncher.ps1' if you want to test the code. (windows only)
