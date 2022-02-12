@@ -9,3 +9,6 @@ and at: https://www.python.org/downloads/
 Run 'FinalLauncher.ps1' if you want to test the code. (windows only)
 Otherwise run 'LinuxFinalLauncher.ps1' to test. (Mac and Linux)
 Deobfuscated Versions of the launchers are avaliable and should be identifiable.
+
+
+Special thanks to the devs at https://github.com/danielbohannon/Invoke-Obfuscation and https://github.com/billythegoat356/Kramer for creating their tools for obfuscation.
