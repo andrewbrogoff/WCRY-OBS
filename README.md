@@ -11,4 +11,4 @@ Otherwise run 'LinuxFinalLauncher.ps1' to test. (Mac and Linux)
 Deobfuscated Versions of the launchers are avaliable and should be identifiable.
 
 
-special thanks to the devs at https://github.com/danielbohannon/Invoke-Obfuscation and https://github.com/billythegoat356/Kramer for creating their tools for obfuscation.
+Special thanks to the devs at https://github.com/danielbohannon/Invoke-Obfuscation and https://github.com/billythegoat356/Kramer for creating their tools for obfuscation.
