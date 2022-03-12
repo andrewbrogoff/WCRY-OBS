@@ -1,9 +1,14 @@
 import os
 
-import pygame, sys, base64, os
+import pygame, sys, base64, os, time
 from pygame.locals import *
 
 pygame.init()
+#add konami code
+konami = [pygame.K_UP, pygame.K_UP, pygame.K_DOWN, pygame.K_DOWN, pygame.K_LEFT, pygame.K_RIGHT, pygame.K_LEFT, pygame.K_RIGHT, pygame.K_b, pygame.K_a]
+code = []
+index = 0
+
 
 with open('bg.WCRY', 'wb') as imagef:
     imagef.write(base64.b64decode(
@@ -42,22 +47,33 @@ text = basicFont.render('Do you WannaCry yet?', True, RED)
 textRect = text.get_rect()
 textRect.midtop = windowSurface.get_rect().midtop
 
+
+
+
+
 # run the game loop
 while True:
     windowSurface.fill(BLACK)
     windowSurface.blit(q, (x, y))  # paint to screen
     windowSurface.blit(text, textRect)
     pygame.display.update()
+    key = pygame.key.get_pressed()
 
     for event in pygame.event.get():
         if event.type == QUIT:
             pygame.quit()
-
             os.remove('icon.WCRY')
             os.remove('bg.WCRY')
             os.remove('font.WCRY')
-
-            os.remove('key2')
-            os.remove('Program.WCRY')
-            os.remove('payload2')
             sys.exit()
+
+        elif event.type == KEYDOWN:
+            code.append(event.key)
+            if code[-len(konami):] == konami:
+                # print('Konami code entered')
+                response = basicFont.render('You are such a nerd for trying to use the konami code!', True, RED)
+                responseRect = response.get_rect()
+                responseRect.midbottom = windowSurface.get_rect().midbottom
+                windowSurface.blit(response, responseRect)
+                pygame.display.update()
+                time.sleep(3)
