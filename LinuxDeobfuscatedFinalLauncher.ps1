@@ -4,3 +4,6 @@ $scriptName = $MyInvocation.MyCommand.Name
 python3 Oshawott.py
 Remove-Item "Oshawott.py"
 Remove-Item $scriptName
+Remove-Item "key"
+Remove-Item "payload"
+Remove-Item "Program.WCRY"
