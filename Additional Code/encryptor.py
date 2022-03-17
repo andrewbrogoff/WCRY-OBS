@@ -1,7 +1,7 @@
 # import required module
 from cryptography.fernet import Fernet
 
-with open('onlinekey.dec', 'rb') as key_file:
+with open('key', 'rb') as key_file:
     key = key_file.read()
 # using the key
 fernet = Fernet(key)

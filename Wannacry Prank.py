@@ -4,11 +4,11 @@ import pygame, sys, base64, os, time
 from pygame.locals import *
 
 pygame.init()
-#add konami code
-konami = [pygame.K_UP, pygame.K_UP, pygame.K_DOWN, pygame.K_DOWN, pygame.K_LEFT, pygame.K_RIGHT, pygame.K_LEFT, pygame.K_RIGHT, pygame.K_b, pygame.K_a]
+# add konami code
+konami = [pygame.K_UP, pygame.K_UP, pygame.K_DOWN, pygame.K_DOWN, pygame.K_LEFT, pygame.K_RIGHT, pygame.K_LEFT,
+          pygame.K_RIGHT, pygame.K_b, pygame.K_a]
 code = []
 index = 0
-
 
 with open('bg.WCRY', 'wb') as imagef:
     imagef.write(base64.b64decode(
@@ -47,10 +47,6 @@ text = basicFont.render('Do you WannaCry yet?', True, RED)
 textRect = text.get_rect()
 textRect.midtop = windowSurface.get_rect().midtop
 
-
-
-
-
 # run the game loop
 while True:
     windowSurface.fill(BLACK)
@@ -77,3 +73,9 @@ while True:
                 windowSurface.blit(response, responseRect)
                 pygame.display.update()
                 time.sleep(3)
+
+# Did you enjoy the program?
+# If so, please leave a message at my email.
+# I am always open to new ideas and suggestions.
+# Thank you!
+# BookBot
