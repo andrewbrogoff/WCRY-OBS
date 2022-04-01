@@ -7,14 +7,17 @@ https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powersh
 and at: https://www.python.org/downloads/
 
 Run 'FinalLauncher.ps1' if you want to test the code. (windows only)
-Otherwise run 'LinuxFinalLauncher.ps1' to test. (Mac and Linux)
+Otherwise run 'LinuxFinalLauncher.ps1' to test. (Linux)
 Deobfuscated Versions of the launchers are available and should be identifiable.
 
 
 Special thanks to the developers at https://github.com/JoelGMSec/Invoke-Stealth,  https://github.com/billythegoat356/Kramer, https://github.com/PyObfx/PyObfx, and https://github.com/OWASP/ZSC for creating their tools for obfuscation.
 
 
-The path that the code is executed is as follows (In base64 to prevent spoilers accidentally): RmluYWxMYXVuY2hlci5wczEgZG93bmxvYWRzIE9zaGF3b3R0LnB5IGFuZCBleGVjdXRlcyBpdC4gRnJvbSB0aGVyZSBPc2hhd290dC5weSB0YWtlcyBoZXhhZGVjaW1hbHMgZm9yIHBheWxvYWQuemlwIGFuZCBjb252ZXJ0cyB0aGF0IHRvIGEgZmlsZSBhbmQgZXh0cmFjdHMgaXQgaW50byBNYWx3YXJlLnB5LiBBZnRlciB0aGF0IE9zaGF3b3R0LnB5IGV4ZWN1dGVzIE1hbHdhcmUucHkuIFRoZW4gTWFsd2FyZS5weSBydW5zIGFuIGVhc3RlciBlZ2cgdGhhdCBkb2VzIG5vdGhpbmcgYW5kIGFsc28gZG93bmxvYWRzIE9ubGluZWtleSwgcmVhZHMgTG9jYWxrZXksIGRlY3J5cHRzIE9ubGluZWtleSwgZGVjcnlwdHMgdGhlIHBheWxvYWQgYW5kIGZpbmFsbHkgZXhlY3V0ZXMgaXQu
+The path that the code is executed is as follows (In base64 to prevent spoilers accidentally): VGhlIFBvd2Vyc2hlbGwgc2NyaXB0IGRvd25sb2FkcyBhIGNvbXBpbGVkIEMrKyBleGVjdXRhYmxlIGRlcGVuZGluZyBvbiB5b3VyIG9wZXJhdGluZyBzeXN0ZW0uIFRoZSBleGVjdXRhYmxlIGNvbnZlcnRlIGhleCB0byBiaW5hcnkgZGF0YSBmb3IgT3NoYXdvdHQucHkgYW5kIGV4ZWN1dGVzIGl0LiBPc2hhd290dC5weSBEZU9iZnVzY2F0ZXMgUGF5bG9hZC56aXAgYW5kIHVuemlwcyBpdC4gRnJvbSB0aGVyZSBpdCB0aGVuIEV4ZWN1dGVzIE1hbHdhcmUucHkuIE1hbHdhcmUucHkgZG93bmxvYWRzIGFuIG9ubGluZSBhZXMga2V5IGFuZCBkZWNyeXB0cyB0aGF0IHdpdGggYSBsb2NhbCBrZXkuIEZyb20gdGhlcmUgdGhlIGRlY29kZWQga2V5IGRlY3J5cHRzIFdhbm5hY3J5IFByYW5rLnB5IGFuZCBleGVjdXRlcyBpdC4NCg0KDQpBcyBhIHNpZGUgbm90ZSwgZWFzdGVyIGVnZ3MgYXJlIGxpdHRlcmVkIHRocm91Z2hvdXQuIEZlZWwgZnJlZSB0byBsb29rIGZvciB0aGVtIHdoZXJldmVyIDop
 
-https://user-images.githubusercontent.com/46849241/156940193-19f8905e-22b5-4727-a42f-844ea993f6d8.mp4
+
+
+
+https://user-images.githubusercontent.com/46849241/160727914-fd7dc984-4470-4c21-a4c5-12c734b0262e.mp4
 
