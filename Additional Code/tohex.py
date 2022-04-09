@@ -1,5 +1,5 @@
 import binascii
-filename = 'Oshawott.py'
+filename = 'Malware.zip'
 with open(filename, 'rb') as f:
     content = f.read()
 with open(filename+".hex", 'wb') as f:
